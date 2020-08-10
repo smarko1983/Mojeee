@@ -1,5 +1,3 @@
-# This script opens random websites from 15 to 30 seconds
-
 import webbrowser
 import time
 import random
@@ -17,3 +15,5 @@ def prank():
         count += 1
 
 schedule.every().day.at("02:45").do(prank())
+
+
