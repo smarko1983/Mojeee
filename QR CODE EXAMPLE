@@ -1,1 +1,8 @@
 
+import qrcode
+
+img = qrcode.make(input("Enter some data: "))
+img.save('Tshirt store.png')
+
+img.show('Tshirt store.png') #You can remove this line if you do not need to see a preview after QR generation
+# The data that you want to store
