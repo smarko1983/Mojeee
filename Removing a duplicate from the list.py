@@ -19,3 +19,13 @@ for element in l:
         index += 1
 
 print(list_fill)
+
+
+# my 3rd solution - I was looking at the list and I figured out a much simpler solution. I am now wondering what was
+# I thinking when I wrote the code for the second solution
+list_fill = []
+for element in l:
+    if element not in list_fill:
+        list_fill.append(element)
+
+print(list_fill)
